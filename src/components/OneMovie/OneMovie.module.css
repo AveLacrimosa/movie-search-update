@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.movieList{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.oneMovie{
+    border: solid 1px;
+    width: 350px;
+    margin: 4px;
+    border-radius: 8px;
+    margin-top: 20px;
+
+}
+
+.oneMovie p{
+    display: flex;
+    justify-content: center;
+}
+
+.oneMovie img{
+    object-fit: cover;
+    height:300px;
+}
+
+.movieImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moreInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
